@@ -1,0 +1,33 @@
+[*] Generated traces
+  Trace 0: UID=0x1234567, Nonce=0x3, KS=10000100101001111010010010000011
+  Trace 1: UID=0x1234567, Nonce=0xa3, KS=10000010001010000101010011101010
+  Trace 2: UID=0x1234567, Nonce=0x143, KS=10000110001010110000101001111000
+  Trace 3: UID=0x1234567, Nonce=0x1e3, KS=10101000011111110010101011010000
+  Trace 4: UID=0x1234567, Nonce=0x283, KS=10001110111001010010010001101101
+  Trace 5: UID=0x1234567, Nonce=0x323, KS=10001110000110100011010000111111
+  Trace 6: UID=0x1234567, Nonce=0x3c3, KS=10001000000011011000100010101110
+  Trace 7: UID=0x1234567, Nonce=0x463, KS=10100110001111111110011110000010
+  Trace 8: UID=0x1234567, Nonce=0x503, KS=10001110001001011110011110011111
+  Trace 9: UID=0x1234567, Nonce=0x5a3, KS=10001000000101011010011101101010
+[*] Precomputation of window lookup table...
+[*] Precomputation of f20 lookup table...
+[*] Starting Step 1: Brute-forcing 16-bit window...
+    Debug: Real key intermediate (0x276300000000) found at position 12584 with score 1.3819478452!
+    Step 1 completed in 3.81 seconds.
+[*] Starting Step 5.17: Brute-forcing 17-bit window...
+    Debug: Real key intermediate (0x276300000000) found at position 19752 with score 1.4555744827!
+    Step 5.17 completed in 8.19 seconds. Candidates: 131072
+[*] Starting Step 5.18: Brute-forcing 18-bit window...
+    Debug: Real key intermediate (0x276340000000) found at position 41876 with score 1.4232364297!
+    Step 5.18 completed in 19.06 seconds. Candidates: 262144
+[*] Starting Step 5.19: Brute-forcing 19-bit window...
+    Debug: Real key intermediate (0x276340000000) found at position 238794 with score 0.9527969593!
+    Step 5.19 completed in 33.12 seconds. Candidates: 400000
+[*] Starting Step 5.20: Brute-forcing 20-bit window...
+    Debug: Real key intermediate (0x276350000000) found at position 408091 with score 1.0317334258!
+    Step 5.20 completed in 54.91 seconds. Candidates: 400000
+[*] Starting Step 5.21: Brute-forcing 21-bit window...
+    Debug: Real key intermediate (0x276358000000) NOT found among candidates!
+    Step 5.21 completed in 50.81 seconds. Candidates: 400000
+
+!!! Attack stopped manually !!!

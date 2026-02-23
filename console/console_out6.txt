@@ -1,0 +1,31 @@
+[*] Generated traces
+  Trace 0: UID=0x89abcdef, Nonce=0xaaaaaaa1, KS=11111101110101010101111111100000
+  Trace 1: UID=0x89abcdef, Nonce=0xaaaaab41, KS=01110100000110001001010111000011
+  Trace 2: UID=0x89abcdef, Nonce=0xaaaaabe1, KS=01110001010111010100101010100011
+  Trace 3: UID=0x89abcdef, Nonce=0xaaaaac81, KS=11111100100100010101000111001010
+  Trace 4: UID=0x89abcdef, Nonce=0xaaaaad21, KS=01111100001011010100101000011001
+  Trace 5: UID=0x89abcdef, Nonce=0xaaaaadc1, KS=11110100010101010010010101111001
+  Trace 6: UID=0x89abcdef, Nonce=0xaaaaae61, KS=11111000011101010101000010000000
+  Trace 7: UID=0x89abcdef, Nonce=0xaaaaaf01, KS=01111000010111000100110100001100
+  Trace 8: UID=0x89abcdef, Nonce=0xaaaaafa1, KS=01110101010111010101000001100100
+  Trace 9: UID=0x89abcdef, Nonce=0xaaaab041, KS=01010100101011100100111011110111
+[*] Precomputation of window lookup table...
+[*] Precomputation of f20 lookup table...
+[*] Starting Step 1: Brute-forcing 16-bit window...
+    Debug: Real key intermediate (0xabcd00000000) found at position 18092 with score 1.1093378067!
+    Step 1 completed in 6.40 seconds.
+[*] Starting Step 5.17: Brute-forcing 17-bit window...
+    Debug: Real key intermediate (0xabcd80000000) found at position 48300 with score 1.1132921278!
+    Step 5.17 completed in 9.17 seconds. Candidates: 131072
+[*] Starting Step 5.18: Brute-forcing 18-bit window...
+    Debug: Real key intermediate (0xabcdc0000000) found at position 142424 with score 0.9079612792!
+    Step 5.18 completed in 20.21 seconds. Candidates: 262144
+[*] Starting Step 5.19: Brute-forcing 19-bit window...
+    Debug: Real key intermediate (0xabcde0000000) found at position 205036 with score 1.0344190261!
+    Step 5.19 completed in 37.31 seconds. Candidates: 400000
+[*] Starting Step 5.20: Brute-forcing 20-bit window...
+    Debug: Real key intermediate (0xabcde0000000) found at position 504221 with score 0.9227589084!
+    Step 5.20 completed in 46.59 seconds. Candidates: 400000
+[*] Starting Step 5.21: Brute-forcing 21-bit window...
+    Debug: Real key intermediate (0xabcde8000000) NOT found among candidates!
+    Step 5.21 completed in 48.21 seconds. Candidates: 400000

@@ -1,0 +1,45 @@
+[*] Generated traces
+  Trace 0: UID=0x1234567, Nonce=0x3, KS=11000111011100110111001011100011
+  Trace 1: UID=0x1234567, Nonce=0x13, KS=11001111010110100111110010110110
+  Trace 2: UID=0x1234567, Nonce=0x23, KS=11001111010001110100110010011010
+  Trace 3: UID=0x1234567, Nonce=0x33, KS=11000111000011110011101011001010
+  Trace 4: UID=0x1234567, Nonce=0x43, KS=11011111111011110000111000011001
+  Trace 5: UID=0x1234567, Nonce=0x53, KS=11010111111001010101110000111000
+  Trace 6: UID=0x1234567, Nonce=0x63, KS=11010111111000011101001110111111
+  Trace 7: UID=0x1234567, Nonce=0x73, KS=11011111101010111101010111011000
+[*] Precomputation of window lookup table...
+[*] Precomputation of f20 lookup table...
+[*] Starting Step 1: Brute-forcing 16-bit window...
+    Debug: Real key intermediate (0x123400000000) found at position 41291 with score 0.7879257202!
+    Step 1 completed in 3.80 seconds.
+[*] Starting Step 5.17: Brute-forcing 17-bit window...
+    Debug: Real key intermediate (0x123400000000) found at position 66377 with score 0.8823126554!
+    Step 5.17 completed in 8.78 seconds. Candidates: 131072
+[*] Starting Step 5.18: Brute-forcing 18-bit window...
+    Debug: Real key intermediate (0x123440000000) found at position 27913 with score 1.6855483409!
+    Step 5.18 completed in 20.63 seconds. Candidates: 262144
+[*] Starting Step 5.19: Brute-forcing 19-bit window...
+    Debug: Real key intermediate (0x123440000000) found at position 92101 with score 1.4972411918!
+    Step 5.19 completed in 37.78 seconds. Candidates: 400000
+[*] Starting Step 5.20: Brute-forcing 20-bit window...
+    Debug: Real key intermediate (0x123450000000) found at position 93279 with score 1.8796438101!
+    Step 5.20 completed in 49.22 seconds. Candidates: 400000
+[*] Starting Step 5.21: Brute-forcing 21-bit window...
+    Debug: Real key intermediate (0x123450000000) found at position 315321 with score 1.6191575607!
+    Step 5.21 completed in 52.43 seconds. Candidates: 400000
+[*] Starting Step 5.22: Brute-forcing 22-bit window...
+    Debug: Real key intermediate (0x123454000000) found at position 144181 with score 2.7671570944!
+    Step 5.22 completed in 51.27 seconds. Candidates: 400000
+[*] Starting Step 5.23: Brute-forcing 23-bit window...
+    Debug: Real key intermediate (0x123456000000) found at position 212041 with score 3.2442151225!
+    Step 5.23 completed in 51.45 seconds. Candidates: 400000
+[*] Starting Step 5.24: Brute-forcing 24-bit window...
+    Debug: Real key intermediate (0x123456000000) found at position 126853 with score 4.8502682665!
+    Step 5.24 completed in 63.29 seconds. Candidates: 400000
+[*] Starting Step 5.25: Brute-forcing 25-bit window...
+    Debug: Real key intermediate (0x123456000000) found at position 455077 with score 4.1419075366!
+    Step 5.25 completed in 59.67 seconds. Candidates: 400000
+[*] Starting Step 5.26: Brute-forcing 26-bit window...
+    Debug: Real key intermediate (0x123456400000) NOT found among candidates!
+
+!!! Attack stopped manually !!!
