@@ -257,7 +257,7 @@ def garcia_attack_step1_2_3(traces, prob_table, window_table, secret_key=None):
             f.write(f"{key:048b} {key:012x} {score:.10f} ")
             #for i in range(len(traces)):
             #    f.write(f"{lfsr_states[i]:048b} ")
-            #f.write("\n")
+            f.write("\n")
     print(f"    Step 1 completed in {time.time() - start_time:.2f} seconds.")
     return candidates
 
