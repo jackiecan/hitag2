@@ -5,6 +5,7 @@ A Python-based implementation of the paper Lock It and Still Lose It - On the (I
 ## Repository Structure
 ```text
 .
+├── project1_report_v4.pdf # final project report
 ├── hitag.py             # Implementation of the Hitag2 cipher
 ├── attack.py            # Attack script on Hitag2
 ├── decoder/             # Decoding of two example key fob traces
